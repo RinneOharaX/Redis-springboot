@@ -9,6 +9,7 @@ public class RedisSpringbootApplication {
     public static void main(String[] args) {
         SpringApplication.run(RedisSpringbootApplication.class, args);
         System.out.println("hot-fix");
+        System.out.println("hot-fix-test");
     }
 
 }
