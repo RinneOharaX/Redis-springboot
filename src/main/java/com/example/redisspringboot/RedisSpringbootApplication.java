@@ -10,6 +10,7 @@ public class RedisSpringbootApplication {
         SpringApplication.run(RedisSpringbootApplication.class, args);
         System.out.println("hot-fix");
         System.out.println("hot-fix6");
+        System.out.println("hot-fix-test");
     }
 
 }
