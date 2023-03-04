@@ -1,0 +1,12 @@
+server:
+  port: 8080
+
+spring:
+  redis:
+    lettuce:
+      cluster:
+        refresh:
+          adaptive: true
+    cluster:
+      nodes: 192.168.153.100:7000,192.168.153.100:7003,192.168.153.101:7001,192.168.153.101:7004,192.168.153.102:7002,192.168.153.102:7005
+    password: zxy902
